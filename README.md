@@ -9,3 +9,18 @@ The most basic use is to use the button to the lower right *Download ZIP*. You c
 
 Github has an extensive help database, so you might find a lot of answers there. There's also a lot of information out there on how to use git, so just dare to Google for answers.
 
+## Help us with a study
+
+Thank you for your interest in the Study, it won't take long! In order to participate you need an Android device and access to the Google Play Store (this is the standard Android App Store).
+
+1. Download Endless Paul on your Android device: Either search the Google Play store for Endless Paul or access it directly here https://play.google.com/store/apps/details?id=at.endlesspaul.gdx
+2. Obtain your game code here: http://www.xifiggam.eu/endlesspaul/randomcode.php Please make a copy of your game code. You will need it for the survey.
+3. Play Endless Paul
+4. Fill out the survey: https://docs.google.com/forms/d/1DaPCtSDNU5KnUnO9QIQoZzHcpBWzmAcTcEaTe86UJKg
+
+Thank you for your time, I hope you had fun playing the game!
+
+Best,
+
+Veit Frick
+
