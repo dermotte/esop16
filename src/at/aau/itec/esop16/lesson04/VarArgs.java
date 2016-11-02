@@ -1,4 +1,4 @@
-package at.aau.itec.esop16.lesson4;
+package at.aau.itec.esop16.lesson04;
 
 /**
  * @author Dr. Mathias Lux, mlux@itec.aau.at, 27.10.2016 15:07.

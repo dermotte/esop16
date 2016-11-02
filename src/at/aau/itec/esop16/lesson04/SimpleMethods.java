@@ -1,17 +1,12 @@
-package at.aau.itec.esop16.lesson4;
+package at.aau.itec.esop16.lesson04;
 
 /**
  * @author Dr. Mathias Lux, mlux@itec.aau.at, 27.10.2016 14:11.
  */
-public class SimpleMethodsWithParam {
+public class SimpleMethods {
     public static void main(String[] args) {
-        printHeader("Header 01");
-        printHeader("Header 02");
-    }
-
-    public static void printHeader(String headerText) {
         printRuler(); // Aufruf der Methode
-        System.out.println(headerText);
+        System.out.println("Header 01");
         printRuler(); // Aufruf der Methode
     }
 
@@ -19,6 +14,6 @@ public class SimpleMethodsWithParam {
      * Definition der Methode und Umsetzung
      */
     public static void printRuler() {
-        System.out.println("*******************");
+        System.out.println("--------------------");
     }
 }
