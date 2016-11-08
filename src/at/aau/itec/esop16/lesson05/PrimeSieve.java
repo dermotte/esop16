@@ -5,7 +5,7 @@ package at.aau.itec.esop16.lesson05;
  */
 public class PrimeSieve {
     public static void main(String[] args) {
-        int n = 10000;    // find primes up to n
+        int n = 10000000;    // find primes up to n
         boolean[] primes = new boolean[n];
 
         // init all values:

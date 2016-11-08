@@ -5,9 +5,9 @@ package at.aau.itec.esop16.lesson03;
  */
 public class SimplePrimeCheck {
     public static void main(String[] args) {
-        for (int candidate = 3; candidate < 10000; candidate += 2) {
+        for (int candidate = 3; candidate < 10000000; candidate += 2) {
             boolean isPrime = true;
-            for (int check = 2; check < Math.sqrt(candidate); check++) {
+            for (int check = 2; check <= Math.sqrt(candidate); check++) {
                 if (candidate % check == 0) {
                     isPrime = false;
                     break;
