@@ -4,10 +4,10 @@ package at.aau.itec.esop16.lesson07;
  * @author Dr. Mathias Lux, mlux@itec.aau.at, 17.11.2016 14:58.
  */
 public class Stack {
-    static int stacksSize = 12;
-    int[] data = new int[stacksSize];
+    public static int stacksSize = 12;
+    private int[] data = new int[stacksSize];
     // points to the next empty stack cell.
-    int pointer = 0;
+    private int pointer = 0;
 
     public void push(int i) {
         if (pointer < data.length-1) {
@@ -29,6 +29,11 @@ public class Stack {
         } else {
             return -1;
         }
+    }
+
+    // Getter
+    public int getPointer() {
+        return pointer;
     }
 
     public static void main(String[] args) {
