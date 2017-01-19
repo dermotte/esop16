@@ -7,19 +7,24 @@ import java.util.*;
  */
 public class GenericsAndCollections {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList();
-        for (int i = 0; i< 10; i++) {
-            list.add(1 + (int) (Math.random()*100));
-        }
+       List<String> l = new ArrayList<>();
+       l.add("Alice");
+       l.add("Hello");
+       l.add("Bob");
+       l.add("Charly");
+       l.add("Kevin");
 
-        for (Integer next : list) {
-            System.out.println(next);
-        }
+       Collections.shuffle(l);
 
-        Collections.sort(list);
-        System.out.println("-----------");
-        for (Integer next : list) {
-            System.out.println(next);
-        }
+       for (String s : l) {
+           System.out.println(s);
+       }
+
+       System.out.println("--");
+       Collections.sort(l);
+
+       for (String s : l) {
+           System.out.println(s);
+       }
     }
 }
